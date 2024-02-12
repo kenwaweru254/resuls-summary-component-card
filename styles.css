@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@900&display=swap');
+body{
+     display: grid;
+     min-height: 100vh;
+     place-items: center;
+}
+.main{
+      position: relative;
+      display: flex;
+      place-items: center;
+      justify-content: center;
+      width: 50%;
+}
+h2{
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: hsl(0, 0%, 70%);
+    margin-bottom: 2.7rem;
+}
+.d1{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: hsl(0, 0%, 100%);
+    width: 40%;
+    background-image: linear-gradient(hsl(252, 92%, 62%),hsl(241, 81%, 54%));
+    border-radius: 25px;
+
+}
+
+
+.circle{
+        height: 180px;
+        width: 180px;
+        background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        border-radius: 50%;
+        display:grid;
+        place-content: center;
+        text-align: center;
+        margin-bottom: 0.8rem;
+        
+    
+}
+.seventy{
+         font-size: 70px;
+         font-family: 'Hanken Grotesk', sans-serif;
+         font-weight: bold;
+}
+.outta{   
+       font-size: 15px;
+       font-family: 'Hanken Grotesk', sans-serif;
+       color: hsl(0, 1%, 63%);
+    
+}
+.great{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-bottom: -3px;
+      
+}   
+.para{
+    color: hsl(0, 0%, 75%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.anada{
+     color: hsl(0, 1%, 32%);
+     padding-right: 12rem;
+     font-family: 'Hanken Grotesk', sans-serif
+     
+}
+
+.d2{
+    background-color:hsl(0, 0%, 100%); 
+    width: 40%;
+    box-shadow: 10px 8px 50px -5px rgb(204, 200, 200); 
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    border-radius: 0px 25px 25px 0px;
+    padding: 2rem; 
+}
+.s1, .s2, .s3, .s4{
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 90%;
+    border-radius: 15px;
+    height: 80%;
+    margin-bottom: 1.3rem;
+    
+    
+}
+.s1{
+    background-color: rgb(253, 241, 241);
+    color: hsl(0, 85%, 69%);
+    font-weight: bold;
+    
+    
+  
+}
+.s2{
+    background-color:hsl(39, 92%, 90%); 
+    color:hsl(39, 93%, 58%);
+    font-weight: bold;
+    
+}    
+.s3{
+    background-color: hsl(165, 70%, 91%);
+    color: hsl(166, 76%, 44%);
+    font-weight: bold;
+    
+}
+.s4{
+    background-color:hsl(240, 87%, 94%);
+    color:  hsl(234, 70%, 52%);
+    font-weight: bold;
+    
+}
+.p1,.p2,.p3,.p4{
+                display: flex;
+                flex-direction: row;
+}
+.icon{
+      padding-left:0.6rem;
+      padding-right:0.6rem;
+    
+}              
+
+       
+.number{
+        padding-left:8rem;
+}
+.black{
+       color: hsl(0, 0%, 26%);
+}
+.percentage{  
+            color: hsl(0, 0%, 70%);
+            
+}
+
+.b1{
+    border-radius: 30px;
+    width: 250px;
+    height: 48px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border: unset;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%); 
+    font-size: 15px;
+
+}
+.last{  
+      padding-left:8.9rem;
+}
+
+
+@media screen and (max-width:600px) {
+    .main{
+        display: grid;
+        width: 320px;
+    }
+    .d1{
+        width: 320px;
+        border-radius: 0px 0px 25px 25px;
+        padding: 1.5rem;
+    }
+    .d2{
+        width: 320px;
+        border-radius: 25px 25px 0px 0px;
+        box-shadow: 0px 0px 0px 0px;
+        padding: 1.5rem;
+
+    }
+    h2{
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+    .s1, .s2, .s3, .s4{
+        font-family: 'Hanken Grotesk', sans-serif;
+        border-radius: 15px;
+        height: 60%;
+        margin-bottom: 0.8rem;  
+        
+    }
+    .number{
+        padding-left: 5.8rem;
+    }
+    .last{  
+        padding-left: 6.7rem;
+    }
+    .great{
+        margin-bottom: -12px;
+        font-size: 25px;
+    }
+    .para{
+        font-size: 16px;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .circle{
+        margin-bottom: 0.4rem;
+        height: 150px;
+        width: 150px;
+    }
+    
+}
+
+
+
+
+
