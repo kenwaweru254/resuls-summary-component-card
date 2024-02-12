@@ -17,18 +17,18 @@ h2{
     text-align: center;
     font-family: 'Hanken Grotesk', sans-serif;
     color: hsl(0, 0%, 70%);
-    margin-bottom: 2.7rem;
+    margin-bottom: 1.8rem;
 }
 .d1{
     display: flex;
     flex-direction: column;
     place-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 1.9rem;
     color: hsl(0, 0%, 100%);
     width: 40%;
     background-image: linear-gradient(hsl(252, 92%, 62%),hsl(241, 81%, 54%));
-    border-radius: 25px;
+    border-radius: 20px;
 
 }
 
@@ -41,7 +41,7 @@ h2{
         display:grid;
         place-content: center;
         text-align: center;
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.3rem;
         
     
 }
@@ -60,7 +60,7 @@ h2{
     color: hsl(0, 0%, 100%);
     font-size: 30px;
     font-family: 'Hanken Grotesk', sans-serif;
-    margin-bottom: -3px;
+    margin-bottom: -5px;
       
 }   
 .para{
@@ -94,8 +94,8 @@ h2{
     font-family: 'Hanken Grotesk', sans-serif;
     width: 90%;
     border-radius: 15px;
-    height: 80%;
-    margin-bottom: 1.3rem;
+    height: 70%;
+    margin-bottom: 1.1rem;
     
     
 }
