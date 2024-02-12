@@ -68,8 +68,8 @@ h2{
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
     text-align: center;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 13%;
+    margin-left: 13%;
 }
 
 .anada{
@@ -137,7 +137,7 @@ h2{
 
        
 .number{
-        padding-left:8rem;
+        padding-left: 7rem;
 }
 .black{
        color: hsl(0, 0%, 26%);
@@ -159,7 +159,7 @@ h2{
 
 }
 .last{  
-      padding-left:8.9rem;
+      padding-left: 7.9rem;
 }
 
 
