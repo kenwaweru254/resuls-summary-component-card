@@ -149,7 +149,7 @@ h2{
 
 .b1{
     border-radius: 30px;
-    width: 250px;
+    width: 300px;
     height: 48px;
     font-family: 'Hanken Grotesk', sans-serif;
     border: unset;
@@ -169,15 +169,18 @@ h2{
         width: 320px;
     }
     .d1{
+        display: grid;
+        place-items: center;
+        justify-content: center;
         width: 320px;
         border-radius: 0px 0px 25px 25px;
-        padding: 1.5rem;
+        padding: 1rem;
     }
     .d2{
         width: 320px;
         border-radius: 25px 25px 0px 0px;
         box-shadow: 0px 0px 0px 0px;
-        padding: 1.5rem;
+        padding: 1rem;
 
     }
     h2{
